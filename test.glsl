@@ -2,7 +2,6 @@
 precision mediump float;
 #endif
 
-//#include "common/shapes.glsl"
 
 uniform vec2 u_resolution;
 uniform vec3 u_camera;
