@@ -218,7 +218,6 @@ void main(){
 
     for (int i = 0; i < STEPS; i++) {
         vec3 p = ro + rd * t;
-        //float d = sphere(p + vec3(0, 0, 0), 1.0);
         float d = map(p);
         t += d;
         //col = getNormal(p) * 0.5 + 0.5;
